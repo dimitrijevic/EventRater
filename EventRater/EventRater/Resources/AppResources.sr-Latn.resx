@@ -1,0 +1,63 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="Clarity" xml:space="preserve">
+    <value>Jasnoća</value>
+  </data>
+  <data name="ClarityDesc" xml:space="preserve">
+    <value>Glavna poenta preneta jasno i bez nepotrebnih detalja</value>
+  </data>
+  <data name="EnterEventCode" xml:space="preserve">
+    <value>Unesite kôd događaja</value>
+  </data>
+  <data name="EnterValidEventCode" xml:space="preserve">
+    <value>Molimo Vas da unesete šifru važećeg događaja.</value>
+  </data>
+  <data name="FeedbackFail" xml:space="preserve">
+    <value>Neuspeh u slanju povratnih informacija. Pokušajte kasnije.</value>
+  </data>
+  <data name="FeedbackSent" xml:space="preserve">
+    <value>Povratna informacija je uspešno poslata. Hvala Vam.</value>
+  </data>
+  <data name="LectureMethod" xml:space="preserve">
+    <value>Metod predavanja</value>
+  </data>
+  <data name="LectureMethodDesc" xml:space="preserve">
+    <value>Relevantnost, pokrivenost tema</value>
+  </data>
+  <data name="NotFound" xml:space="preserve">
+    <value>Konferencija nije pronađena. Unesite šifru važećeg događaja.</value>
+  </data>
+  <data name="ProcessFail" xml:space="preserve">
+    <value>Neuspela obrada koda. Pokušajte kasnije.</value>
+  </data>
+  <data name="SpeakerKnowledge" xml:space="preserve">
+    <value>Znanje govornika</value>
+  </data>
+  <data name="SpeakerStyle" xml:space="preserve">
+    <value>Stil govornika</value>
+  </data>
+  <data name="Suitability" xml:space="preserve">
+    <value>Podobnost</value>
+  </data>
+  <data name="SuitabilityDesc" xml:space="preserve">
+    <value>Terminologija i tehnički detalji pogodni za publiku</value>
+  </data>
+  <data name="Vote" xml:space="preserve">
+    <value>Glasanje</value>
+  </data>
+  <data name="VotingFail" xml:space="preserve">
+    <value>Otvaranje stranice za glasanje nije uspelo. Pokušajte kasnije.</value>
+  </data>
+</root>

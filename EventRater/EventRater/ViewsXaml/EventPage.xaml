@@ -1,0 +1,98 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="EventRater.EventPage">
+  <ContentPage.Content>
+    <Grid>
+     <ScrollView>
+      <StackLayout x:Name="RootGrid" VerticalOptions="Start" Orientation="Vertical">
+        <ActivityIndicator x:Name="Activity" Color="Red" IsRunning="True" HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand"/>
+        <Label Text="{Binding Conference.Name}" VerticalOptions="Start" HorizontalOptions="Center" />
+        <!--
+        <ListView ItemsSource="{Binding Events}">
+          <ListView.ItemTemplate>
+            <DataTemplate>
+              <ViewCell>
+                <ViewCell.View>
+
+                  <Label Text="{Binding EventDetail.Name}" />
+
+
+                  <StackLayout Orientation="Horizontal">
+                    <Label HorizontalOptions="Start" Text="Start "/>
+                    <Label HorizontalOptions="Start" Text="{Binding EventDetail.StartDate, StringFormat = '{0:dd MMMM HH:MM}'}" />
+                    <Label HorizontalOptions="End" Text="End " />
+                    <Label HorizontalOptions="End" Text="{Binding EventDetail.EndDate, StringFormat = '{0:dd MMMM HH:MM}'}" />
+                  </StackLayout>
+
+                  <StackLayout Orientation="Vertical">
+                    <ListView ItemsSource="{Binding Lecturers}">
+                      <ListView.ItemTemplate>
+                        <DataTemplate>
+                          <ViewCell>
+                            <ViewCell.View>
+
+                              <Label Text="{Binding LecturerDetail.LastName}"/>
+
+                            </ViewCell.View>
+                          </ViewCell>
+                        </DataTemplate>
+                      </ListView.ItemTemplate>
+                    </ListView>
+                  </StackLayout>
+
+                </ViewCell.View>
+              </ViewCell>
+            </DataTemplate>
+          </ListView.ItemTemplate>
+        </ListView>
+      -->
+        <!--
+        <ListView ItemsSource="{Binding Events}" IsGroupingEnabled="True" GroupDisplayBinding="{Binding EventDetail.Id}">
+          <ListView.GroupHeaderTemplate>
+            <DataTemplate>
+              <TextCell Text="{Binding EventDetail.Name}"></TextCell>
+              <ViewCell>
+                <ViewCell.View>
+                  <Label Text="{Binding Name}" />
+                  <StackLayout Orientation="Horizontal">
+                    <Label HorizontalOptions="Start" Text="Start "/>
+                    <Label HorizontalOptions="Start" Text="{Binding StartDate, StringFormat = '{0:dd MMMM HH:MM}'}" />
+                    <Label HorizontalOptions="End" Text="End " />
+                    <Label HorizontalOptions="End" Text="{Binding EndDate, StringFormat = '{0:dd MMMM HH:MM}'}" />
+                  </StackLayout>
+                </ViewCell.View>
+              </ViewCell>
+            </DataTemplate>
+          </ListView.GroupHeaderTemplate>
+          <ListView.ItemTemplate>
+            <DataTemplate>
+              <TextCell Text="{Binding Lecturers.LecturerDetail.Id}"></TextCell>
+              <ViewCell>
+                <ViewCell.View>
+                  <StackLayout Orientation="Vertical">
+                    <ListView ItemsSource="{Binding Lecturers}">
+                      <ListView.ItemTemplate>
+                        <DataTemplate>
+                          <ViewCell>
+                            <ViewCell.View>
+
+                              <Label Text="{Binding LecturerDetail.LastName}"/>
+
+                            </ViewCell.View>
+                          </ViewCell>
+                        </DataTemplate>
+                      </ListView.ItemTemplate>
+                    </ListView>
+                  </StackLayout>
+                </ViewCell.View>
+              </ViewCell>
+              </DataTemplate>
+          </ListView.ItemTemplate>
+        </ListView>
+          -->
+      </StackLayout>
+     </ScrollView>
+    </Grid>
+  </ContentPage.Content>
+</ContentPage>

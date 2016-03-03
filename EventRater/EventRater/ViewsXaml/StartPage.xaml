@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:i18n="clr-namespace:EventRater.ViewsXaml;assembly=EventRater"
+             x:Class="EventRater.StartPage">
+  <StackLayout Orientation="Vertical" HorizontalOptions="CenterAndExpand" VerticalOptions="CenterAndExpand">
+    <Label Text="{i18n:Translate EnterEventCode}" HorizontalOptions="Center"/>
+    <Entry Placeholder="{i18n:Translate EnterEventCode}" x:Name="EventCodeEntry"></Entry>
+    <Button Text="OK" x:Name="GetEvents" Clicked="GetEvents_OnClicked"></Button>
+    <ActivityIndicator x:Name="Activity" Color="Red" IsRunning="True" HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand"/>
+  </StackLayout>
+</ContentPage>

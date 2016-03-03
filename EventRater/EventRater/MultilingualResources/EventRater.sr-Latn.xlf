@@ -1,0 +1,80 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" source-language="en" target-language="sr-Latn" original="EVENTRATER/RESOURCES/APPRESOURCES.RESX" tool-id="MultilingualAppToolkit" product-name="n/a" product-version="n/a" build-num="n/a">
+    <header>
+      <tool tool-id="MultilingualAppToolkit" tool-name="Multilingual App Toolkit" tool-version="4.0.1573.0" tool-company="Microsoft" />
+    </header>
+    <body>
+      <group id="EVENTRATER/RESOURCES/APPRESOURCES.RESX" datatype="resx">
+        <trans-unit id="Clarity" translate="yes" xml:space="preserve">
+          <source>Clarity</source>
+          <target state="needs-review-translation" state-qualifier="tm-suggestion">Jasnoća</target>
+        </trans-unit>
+        <trans-unit id="ClarityDesc" translate="yes" xml:space="preserve">
+          <source>Key points made clearly and without unnecessary details</source>
+          <target state="translated">Glavna poenta preneta jasno i bez nepotrebnih detalja</target>
+        </trans-unit>
+        <trans-unit id="EnterEventCode" translate="yes" xml:space="preserve">
+          <source>Enter event code</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Unesite kôd događaja</target>
+        </trans-unit>
+        <trans-unit id="EnterValidEventCode" translate="yes" xml:space="preserve">
+          <source>Please enter a valid event code.</source>
+          <target state="translated">Molimo Vas da unesete šifru važećeg događaja.</target>
+        </trans-unit>
+        <trans-unit id="FeedbackFail" translate="yes" xml:space="preserve">
+          <source>Failed to send your feedback. Please try later.</source>
+          <target state="translated">Neuspeh u slanju povratnih informacija. Pokušajte kasnije.</target>
+        </trans-unit>
+        <trans-unit id="FeedbackSent" translate="yes" xml:space="preserve">
+          <source>Your feedback has been successfuly sent. Thank you.</source>
+          <target state="translated">Povratna informacija je uspešno poslata. Hvala Vam.</target>
+        </trans-unit>
+        <trans-unit id="LectureMethod" translate="yes" xml:space="preserve">
+          <source>Lecture method</source>
+          <target state="translated">Metod predavanja</target>
+        </trans-unit>
+        <trans-unit id="LectureMethodDesc" translate="yes" xml:space="preserve">
+          <source>Relevance, coverage of subject</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Relevantnost, pokrivenost tema</target>
+        </trans-unit>
+        <trans-unit id="NotFound" translate="yes" xml:space="preserve">
+          <source>Conference not found. Please enter a valid event code.</source>
+          <target state="translated">Konferencija nije pronađena. Unesite šifru važećeg događaja.</target>
+        </trans-unit>
+        <trans-unit id="ProcessFail" translate="yes" xml:space="preserve">
+          <source>Failed to process code. Please try later.</source>
+          <target state="translated">Neuspela obrada koda. Pokušajte kasnije.</target>
+        </trans-unit>
+        <trans-unit id="SpeakerKnowledge" translate="yes" xml:space="preserve">
+          <source>Speaker's knowledge</source>
+          <target state="translated">Znanje govornika</target>
+        </trans-unit>
+        <trans-unit id="SpeakerStyle" translate="yes" xml:space="preserve">
+          <source>Spearker's style</source>
+          <target state="translated">Stil govornika</target>
+        </trans-unit>
+        <trans-unit id="Suitability" translate="yes" xml:space="preserve">
+          <source>Suitability</source>
+          <target state="translated">Podobnost</target>
+        </trans-unit>
+        <trans-unit id="SuitabilityDesc" translate="yes" xml:space="preserve">
+          <source>Terminology and technical details suitable to audience</source>
+          <target state="translated">Terminologija i tehnički detalji pogodni za publiku</target>
+        </trans-unit>
+        <trans-unit id="Vote" translate="yes" xml:space="preserve">
+          <source>Vote</source>
+          <target state="needs-review-translation" state-qualifier="tm-suggestion">Glasanje</target>
+        </trans-unit>
+        <trans-unit id="VotingFail" translate="yes" xml:space="preserve">
+          <source>Failed to open voting page. Please try later.</source>
+          <target state="translated">Otvaranje stranice za glasanje nije uspelo. Pokušajte kasnije.</target>
+        </trans-unit>
+        <trans-unit id="SendFeedback" translate="yes" xml:space="preserve">
+          <source>SEND FEEDBACK</source>
+          <target state="new">SEND FEEDBACK</target>
+        </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

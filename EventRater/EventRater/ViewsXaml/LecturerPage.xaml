@@ -1,0 +1,111 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:i18n="clr-namespace:EventRater.ViewsXaml;assembly=EventRater"
+             x:Class="EventRater.LecturerPage">
+  <ScrollView >
+    <Grid>
+    
+    <Grid.ColumnDefinitions>
+      <ColumnDefinition Width="*"></ColumnDefinition>
+      <ColumnDefinition Width="100"></ColumnDefinition>
+    </Grid.ColumnDefinitions>
+
+    <Grid.RowDefinitions>
+      <RowDefinition Height="Auto"></RowDefinition>
+      <RowDefinition Height="Auto"></RowDefinition>
+      <RowDefinition Height="Auto"></RowDefinition>
+      <RowDefinition Height="Auto"></RowDefinition>
+      <RowDefinition Height="Auto"></RowDefinition>
+      <RowDefinition Height="Auto"></RowDefinition>
+      <RowDefinition Height="Auto"></RowDefinition>
+    </Grid.RowDefinitions>
+
+    <ActivityIndicator x:Name="Activity" Color="Red" IsRunning="True" Grid.RowSpan="7" Grid.ColumnSpan="2" Grid.Column="0" Grid.Row="0" HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand"/>
+
+    <Label x:Name="LecturerName" Grid.Row="0" Grid.ColumnSpan="2" Grid.Column="0" />
+        
+    <StackLayout Orientation="Vertical" Grid.Column="0" Grid.Row="1">
+      <Label Text="{i18n:Translate Clarity}" VerticalOptions="Start" HorizontalOptions="Start"/>
+      <Label Text="{i18n:Translate ClarityDesc}" VerticalOptions="Start" HorizontalOptions="Start"/>
+    </StackLayout>
+    <Picker BackgroundColor="#FFED1639" x:Name="PickerClarity" Grid.Column="1" Grid.Row="1">
+      <Picker.Items>
+        <x:String>None</x:String>
+        <x:String>1</x:String>
+        <x:String>2</x:String>
+        <x:String>3</x:String>
+        <x:String>4</x:String>
+        <x:String>5</x:String>
+      </Picker.Items>
+      <Picker.SelectedIndex>0</Picker.SelectedIndex>
+    </Picker>
+
+
+    <StackLayout Orientation="Vertical" Grid.Column="0" Grid.Row="2">
+      <Label Text="{i18n:Translate Suitability}" VerticalOptions="Start" HorizontalOptions="Start"/>
+      <Label Text="{i18n:Translate SuitabilityDesc}" VerticalOptions="Start" HorizontalOptions="Start"/>
+    </StackLayout>
+
+    <Picker BackgroundColor="#FFED1639" x:Name="PickerSuitability" Grid.Column="1" Grid.Row="2">
+      <Picker.Items>
+        <x:String>None</x:String>
+        <x:String>1</x:String>
+        <x:String>2</x:String>
+        <x:String>3</x:String>
+        <x:String>4</x:String>
+        <x:String>5</x:String>
+      </Picker.Items>
+      <Picker.SelectedIndex>0</Picker.SelectedIndex>
+    </Picker>
+
+
+    <StackLayout Orientation="Vertical" Grid.Column="0" Grid.Row="3">
+      <Label Text="{i18n:Translate LectureMethod}" VerticalOptions="Start" HorizontalOptions="Start"/>
+      <Label Text="{i18n:Translate LectureMethodDesc}" VerticalOptions="Start" HorizontalOptions="Start"/>
+    </StackLayout>
+
+    <Picker BackgroundColor="#FFED1639" x:Name="PickerLectureMethod" Grid.Column="1" Grid.Row="3">
+      <Picker.Items>
+        <x:String>None</x:String>
+        <x:String>1</x:String>
+        <x:String>2</x:String>
+        <x:String>3</x:String>
+        <x:String>4</x:String>
+        <x:String>5</x:String>
+      </Picker.Items>
+      <Picker.SelectedIndex>0</Picker.SelectedIndex>
+    </Picker>
+
+    <Label Text="{i18n:Translate SpeakerKnowledge}" VerticalOptions="Start" HorizontalOptions="Start" Grid.Column="0" Grid.Row="4"/>
+    
+    <Picker BackgroundColor="#FFED1639" x:Name="PickerSpeakerKnowledge" Grid.Column="1" Grid.Row="4">
+      <Picker.Items>
+        <x:String>None</x:String>
+        <x:String>1</x:String>
+        <x:String>2</x:String>
+        <x:String>3</x:String>
+        <x:String>4</x:String>
+        <x:String>5</x:String>
+      </Picker.Items>
+      <Picker.SelectedIndex>0</Picker.SelectedIndex>
+    </Picker>
+
+    <Label Text="{i18n:Translate SpeakerStyle}" VerticalOptions="Start" HorizontalOptions="Start"  Grid.Column="0" Grid.Row="5"/>
+    
+    <Picker BackgroundColor="#FFED1639" x:Name="PickerSpeakerStyle" Grid.Column="1" Grid.Row="5">
+      <Picker.Items>
+        <x:String>None</x:String>
+        <x:String>1</x:String>
+        <x:String>2</x:String>
+        <x:String>3</x:String>
+        <x:String>4</x:String>
+        <x:String>5</x:String>
+      </Picker.Items>
+      <Picker.SelectedIndex>0</Picker.SelectedIndex>
+    </Picker>
+
+    <Button Text="{i18n:Translate SendFeedback}" x:Name="AddRates" Clicked="AddRates_OnClicked" Grid.ColumnSpan="2" Grid.Column="0" Grid.Row="6"></Button>
+  </Grid>
+  </ScrollView>
+</ContentPage>
