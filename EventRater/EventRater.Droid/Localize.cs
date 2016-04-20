@@ -21,8 +21,12 @@ namespace EventRater.Droid
         {
             if (androidLocale == null)
                 androidLocale = Java.Util.Locale.Default.ToString().Replace("_", "-"); // user's preferred locale
-            else
-                androidLocale = androidLocale.Replace("_", "-");
+
+            var spliter = new Char[] {'-'};
+
+            if (androidLocale.Split(spliter)[0]=="sr")
+                androidLocale = androidLocale.Split(spliter)[0] + "-Latn";
+            
             var netLocale = androidLocale;
             var ci = new System.Globalization.CultureInfo(netLocale);
             Thread.CurrentThread.CurrentCulture = ci;
